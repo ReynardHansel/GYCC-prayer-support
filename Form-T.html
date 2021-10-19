@@ -24,7 +24,7 @@
     <img src="GYCC BLACK.png" class="cover-logo">
     <div class="full-container full-container-bg">
         <div class="form-container">
-        <form>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <div class="title">
                 <div class="title-first-text">Prayer</div>
                 <div class="title-break"></div>
@@ -56,6 +56,8 @@
                 <div class="input-group">
                     <p>Note: Jika kamu mau sifat doanya anonim (tidak ada yang tau siapa yang didoakan), kolom nama tidak usah diisi</p>
                 </div>
+
+                <div data-netlify-recaptcha="true"></div>
 
                 <button type="submit" class="submit">Submit</button>
             </div>
