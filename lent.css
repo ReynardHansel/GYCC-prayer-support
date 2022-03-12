@@ -14,9 +14,9 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsla(0, 0%, 0%, 0.7);
+    background-color: hsla(0, 0%, 0%, 0.4);
     background-blend-mode: multiply;
-    background-image: url("GYCC\ bg.jpg");
+    background-image: url(Lent/crown\ bg\ \(portrait\).jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -305,6 +305,12 @@ html, body {
 
 /* media queries */
 @media (min-width: 700px) {
+.full-container {
+    background-image: url(Lent/crown\ bg\ \(landscape\).jpg)
+}
+
+.footer-container {
+    background-color: hsl(192,52%,15%);
 
 .contact-info ul {
     display: flex;
