@@ -311,6 +311,7 @@ html, body {
 
 .footer-container {
     background-color: hsl(192,52%,15%);
+}
 
 .contact-info ul {
     display: flex;
