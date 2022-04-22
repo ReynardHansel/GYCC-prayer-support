@@ -16,9 +16,9 @@ html, body {
     align-items: center;
     background-color: hsla(0, 0%, 0%, 0.4);
     background-blend-mode: multiply;
-    background-image: url(Lent/crown\ bg\ \(portrait\).jpg);
+    background-image: url("Lent/Crucifixion\ mobile.jpg");
     background-size: cover;
-    background-position: center;
+    /* background-position: top; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
@@ -244,9 +244,15 @@ html, body {
 
 .cover img {
     position: fixed;
-    top: 30%;
+    /* Lent */
+    /* top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(8%);
+    transform: translate(-50%, -50%) scale(8%); */
+    /* After Lent */
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(4%);
+    
 }
 
 .cover-text {
@@ -259,9 +265,15 @@ html, body {
     align-items: center;
     flex-direction: column;
 
-    left: 50%;
+    /* Lent */
+    /* left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+
+    /* After lent */
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%) scale(80%);
 }
 
 .cover-text p {
@@ -273,9 +285,16 @@ html, body {
 
 .cover-logo {
     position: fixed;
-    left: 50%;
+
+    /* Lent  */
+    /* left: 50%;
     top: 75%;
+    transform: translate(-50%, -50%) scale(10%); */
+    /* After Lent */
+    left: 50%;
+    top: 85%;
     transform: translate(-50%, -50%) scale(10%);
+
     opacity: 0%;
     animation-name: cover2;
     animation-delay: 2s;
